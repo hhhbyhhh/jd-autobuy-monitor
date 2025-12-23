@@ -5,7 +5,11 @@ import time
 proxy_api = "http://1356392297-2qzwoew2rb.ap-guangzhou.tencentscf.com/jd-price"
 sku_id = "10148775088416"
 max_price = 80.0
-sckey = "SCT277418TPZW6vZxtP3h6v0eoti0O3yR7"
+import os
+
+sckey = os.getenv("SCKEY")
+if not sckey:
+    raise RuntimeError("SCKEY not set")
 
 def check_price():
     try:
