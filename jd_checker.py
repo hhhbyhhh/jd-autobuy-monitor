@@ -3,7 +3,7 @@ import time
 
 # ✅ 中转 API 地址（腾讯云函数）
 proxy_api = "http://1356392297-2qzwoew2rb.ap-guangzhou.tencentscf.com/jd-price"
-sku_id = "10148775088416"
+sku_id = "100154886849"
 max_price = 80.0
 sckey = "SCT147141TLm0h1wBhM4CeGpdRESivYSJJ"
 
